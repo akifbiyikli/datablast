@@ -27,3 +27,5 @@ df.head()
 df.shape
 df.index = dates_list
 df
+
+df.to_csv("USD_currency.csv")
